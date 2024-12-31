@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown</title>
+    <link rel="shortcut icon" href="./images/favicon clock.png" type="image/x-icon">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>COUNTDOWN TIMER</h1>
+        <button id="setCountdown">Set Countdown</button>
+        <div class="timer">
+            <span><h3>Days</h3><div id="days" class="display-box">00</div></span>
+            <span><h3>Hours</h3><div id="hours" class="display-box">00</div></span>
+            <span><h3>Minutes</h3><div id="minutes" class="display-box">00</div></span>
+            <span><h3>Seconds</h3><div id="seconds" class="display-box">00</div></span>
+        </div>
+        <button id="reset">Reset</button>
+    </div>
+    <div id="Modal" class="Modal">
+        <div class="ModalContent">
+            <img src="./images/modal-closing.png" class="modalClosing" id="modalClosing">
+            <div class="setCountdown">
+               <input type="date" name="" id="userInput">
+            </div>
+            <button type="text" id="setDate" class="date">Set Date</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
